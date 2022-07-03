@@ -1,0 +1,40 @@
+:root {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  display: inline-block;
+  padding: 25px;
+  border: 2px solid rgb(114, 221, 248);
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: rgb(114, 221, 248);
+  color: white;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  height: 200px;
+  margin-top: 20px;
+  border: 2px solid rgb(114, 221, 248);
+}
+
+.block {
+  display: inline-block;
+  align-self: stretch;
+  flex-basis: 41px;
+  margin: 2px;
+  font-size: 28px;
+  background-color: rgb(162, 230, 247);
+  color: rgb(0, 98, 122);
+  text-align: center;
+}
